@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1>Worker Sign Up</h1>
+<div>
+    <form action="/workers/save" method="post" enctype='application/json'>
+       <div> Fullname <input type="text" name="contact.fullName"></div>
+        <div> User Name <input type="text" name="loginInfo.username"></div>
+
+        <div> Phone Number <input type="number" name="contact.phoneNumber"></div>
+        <div> Email <input type="email" name="contact.email"></div>
+        <div> Adress <input type="text" name="contact.addressToWork"></div>
+        <div> Password <input type="password" name="loginInfo.password"></div>
+        <div>  <input type="submit" name="submit"></div>
+    </form>
+</div>
+
+</body>
+</html>
